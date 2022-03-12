@@ -1,0 +1,54 @@
+Manual de usuario
+
+Importante:
+
+1. Este sistema esta desarrollado para pacientes mayores de 12 años.
+2. El paciente no debe tener problemas de presion.
+3. Exclusivamente para uso farmaceutico.
+4. En caso de tener alergia con algun medicamento recomendado omitir el medicamento, y recetar los que siguen en la lista de medicamentos.
+5. Debe recibir sintomas de una sola persona, para evitar equivocaciones al recetar.
+Nota: Si desea la misma persona comprar medicamentos para alguien mas debera hacer las recetas necesarias para cada uno, ya que al mezclar los sintomas de dos o mas 
+personas se pueden mezclar los medicamentos.
+
+A continuacion se detalla el uso del sistema:
+
+Al ejecutar el programa se muestra una ventana, con diversas funciones:
+ 
+
+Listado de sintomas por seleccionar:
+
+Para seleccionar un sintoma de cualquier listado dar doble click, asi tambien para quitar la seleccion debera volver a dar doble click en caso de haber seleccionado,
+algun sintoma que no corresponde al del paciente.
+
+
+Scroll:
+
+Con el scroll puede deslizarse por todo el listado de posibles sintomas que estan propuestos para seleccionar. 
+
+Listado de sintomas de enfermedades concretas:
+
+A lado izquierdo se muestra el listado de sintomas que pueda tener el paciente, empezando a leer desde la parte superior encontramos los sintomas concretos los cuales
+un paciente podria tener, el usuario deberia revisar primero estos sintomas, desplanzado el mause o las direcciones de teclado sobre estos para visualizar todos.
+
+Listado de sistomas de enfermedades comunes:
+
+En esta seccion estan los dolores mas comunes, dentro de cada dolor hay mas informacion de como es el dolor o que causa cada dolor, para revisar esta lista podemos 
+deslizar con el mause o con las direcciones del teclado.
+
+
+Listado de sintomas seleccionados:
+
+Una vez seleccionado el sintoma aparecera en la mitad de la ventana, se ira mostrando todos los sintomas que ha mencionado tener el paciente.
+
+
+Botones
+Existen dos botones:
+
+1. "Hacer receta"
+Una vez seleccionados los sintomas dados por el paciente para dar resultado a la receta en esta misma pantalla en la parte inferior se muestra el boton "Hacer receta" 
+el cual al hacer click mostrara a lado derecho la medicacion y la dosis que se debera recetar al paciente. 
+2. "Vaciar campos"
+En el mismo lado derecho a la parte inferior esta el boton "Vaciar campos" con este boton se vaciara el listado de sintomas seleccionado y la receta mostrada una vez
+vacios estos campos se puede seguir con el siguiente paciente con proximos sintomas y se genere una nueva receta.
+
+
