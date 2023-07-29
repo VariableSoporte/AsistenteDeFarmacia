@@ -1,7 +1,7 @@
 import sqlite3
 #se genera la receta despues de todos los filtros
 def agregar_a_receta(medicinas):
-    mi_coneccion = sqlite3.connect("C:/Users/windows/Desktop/python-curse/version_proyecto_v2.0/medicamentos_base_datos.db")
+    mi_coneccion = sqlite3.connect("d:/Users/Usuario/Desktop/proyectos/AsistenteDeFarmacia/medicamentos_base_datos.db")
     mi_cursor = mi_coneccion.cursor()
     mi_cursor.execute('select * from Medicamentos')
     lista_que_contiene_base=mi_cursor.fetchall()
@@ -21,7 +21,7 @@ def agregar_a_receta(medicinas):
 
 #obtenermos los medicamentos con los parametros de accion para no sobrerecetar
 def buscar_en_base_datos(dato):
-    mi_coneccion = sqlite3.connect("C:/Users/windows/Desktop/python-curse/version_proyecto_v2.0/medicamentos_base_datos.db")
+    mi_coneccion = sqlite3.connect("d:/Users/Usuario/Desktop/proyectos/AsistenteDeFarmacia/medicamentos_base_datos.db")
     mi_cursor = mi_coneccion.cursor()
     mi_cursor.execute('select * from Medicamentos')
     lista_que_contiene_base = mi_cursor.fetchall()
